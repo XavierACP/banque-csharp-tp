@@ -18,7 +18,7 @@ namespace banque_simple
         [Test]
         public void testGetNumero(){
             long num = compte.Numero;
-            Assert.AreEqual(1234, num);
+            Assert.AreEqual(123, num);
             //Assert.IsTrue(12315 == num); ideal booleen sinon ici on se sera pas pourquoi c false
         }
          [Test]
